@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(0, 140, 255);
+    color: #0f172a;
+    line-height: 1.6;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    
+}
+
+
+th, td {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    text-align: center;
+}
+
+tr{
+    border-radius: 8px;
+}
+th {
+    background: blue;
+    color: white;
+    
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+
+.edit {
+    background: rgb(217, 255, 0);
+}
+
+.hapus {
+    background: rgb(87, 241, 15);
+}
+
+.tambah {
+    background: rgb(12, 15, 160);
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 14px;
+    border-radius: 6px;
+}
+
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #0f172a;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.box {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.box h2 {
+    font-size: 30px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 14px;
+    background: rgb(21, 21, 184);
+    color: white;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: rgb(30, 120, 255);
+}
+
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(0, 140, 255);
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 15px;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(23, 23, 48);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: rgb(94, 6, 6);
+}
+
+
+form a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+}
+
+form a:hover {
+    color: rgb(0, 247, 255);
+}
+
+.tmb-d{
+    margin-top: 80px;
+    
+    align-items: center;
+    justify-content: center;
+    display: grid;
+
+}
+
+.con-tmbl{
+    display: flex;
+    gap: 12px;
+}
